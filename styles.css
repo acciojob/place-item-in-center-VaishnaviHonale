@@ -1,2 +1,19 @@
 
 /* Your CSS Code here. */
+.container{
+	font-family:arial;
+	font-size:24px;
+	margin:25px;
+	width:350px;
+	height:200px;
+	position:relative;
+}
+.item-1{
+	width:50px;
+	height:50px;
+	background-color:red;
+	position:absolute;
+	top:50%;
+	left:50%;
+	trasfrom:translate(-50, -50);
+}
